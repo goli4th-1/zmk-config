@@ -8,13 +8,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&lt {
+        tapping-term-ms = <150>;
+    };
+ß
 / {
     chosen {
         zmk,underglow = &led_strip;
-    };
-
-    &lt {
-        tapping-term-ms = <150>;
     };
 
     keymap {
