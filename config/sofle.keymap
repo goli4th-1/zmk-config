@@ -11,7 +11,7 @@
 &lt {
         tapping-term-ms = <150>;
     };
-ß
+
 / {
     chosen {
         zmk,underglow = &led_strip;
